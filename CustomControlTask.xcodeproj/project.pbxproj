@@ -12,6 +12,8 @@
 		E151698A2092A5C300CDFA1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15169882092A5C300CDFA1F /* Main.storyboard */; };
 		E151698C2092A5C500CDFA1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E151698B2092A5C500CDFA1F /* Assets.xcassets */; };
 		E151698F2092A5C500CDFA1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E151698D2092A5C500CDFA1F /* LaunchScreen.storyboard */; };
+		E15169972092A6B400CDFA1F /* CalendarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15169962092A6B400CDFA1F /* CalendarButton.swift */; };
+		E15169992092A81E00CDFA1F /* icons8-calendar-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E15169982092A81D00CDFA1F /* icons8-calendar-50.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E151698B2092A5C500CDFA1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E151698E2092A5C500CDFA1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E15169902092A5C500CDFA1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E15169962092A6B400CDFA1F /* CalendarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarButton.swift; sourceTree = "<group>"; };
+		E15169982092A81D00CDFA1F /* icons8-calendar-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-calendar-50.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				E15169842092A5C300CDFA1F /* AppDelegate.swift */,
 				E15169862092A5C300CDFA1F /* ViewController.swift */,
 				E15169882092A5C300CDFA1F /* Main.storyboard */,
+				E15169962092A6B400CDFA1F /* CalendarButton.swift */,
 				E151698B2092A5C500CDFA1F /* Assets.xcassets */,
 				E151698D2092A5C500CDFA1F /* LaunchScreen.storyboard */,
 				E15169902092A5C500CDFA1F /* Info.plist */,
+				E15169982092A81D00CDFA1F /* icons8-calendar-50.png */,
 			);
 			path = CustomControlTask;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				E151698F2092A5C500CDFA1F /* LaunchScreen.storyboard in Resources */,
 				E151698C2092A5C500CDFA1F /* Assets.xcassets in Resources */,
+				E15169992092A81E00CDFA1F /* icons8-calendar-50.png in Resources */,
 				E151698A2092A5C300CDFA1F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E15169972092A6B400CDFA1F /* CalendarButton.swift in Sources */,
 				E15169872092A5C300CDFA1F /* ViewController.swift in Sources */,
 				E15169852092A5C300CDFA1F /* AppDelegate.swift in Sources */,
 			);

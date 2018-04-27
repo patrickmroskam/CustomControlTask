@@ -21,5 +21,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func calendarButtonTapped(_ sender: CalendarButton) {
+        print("use this to schedule stuff!")
+    }
 }
 
